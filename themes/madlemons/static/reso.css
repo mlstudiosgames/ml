@@ -1,0 +1,588 @@
+yeah @charset "utf-8";
+/* CSS Document */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 767px) and (orientation: portrait) {
+    /*
+#wrapper {
+	height: 254px !important;
+}
+#carousel img {
+	height: 254px !important;
+}
+#prev, #next {
+	height: 254px !important;
+}*/
+
+    .box {
+        width: 100%;
+        min-height: 254px;
+    }
+    .hover .square-01{
+        margin-top: 20%;
+    }
+    .games_block li{/*float: none;*/ width: 100%; margin: 0 0 10px 0;}
+
+    .right {
+        text-align: left !important
+    }
+
+    .about-carousel .carousel-inner > .item > img,
+    .about-carousel,
+    .about-carousel .item,
+    .carousel,
+    .carousel-inner > .item > img,
+    .carousel .item,
+    .carousel-careers,
+    .carousel-careers .carousel-inner > .item > img,
+    .carousel-careers .item,
+    .news_banner,
+    .mini-image img {
+        width: 100%;
+        height: auto;
+       height: 254px !important;
+    }
+
+    .article_banner ,
+    .custom_banner {
+        background-position: center;
+        height: 254px !important;
+    }
+
+    .about_profile .custom_banner  {
+        background-position: top center;
+    }
+
+    .custom_banner {
+        background-size: 470px;
+    }
+
+
+    .carousel-caption {
+        /*left: 26% !important;*/
+    }
+
+    img.so-widget-image {
+        align-self: stretch;
+        height: 224px !important;
+/*        margin-left: -10%;*/
+    }
+
+
+    #pgc-84-8-0 .custom_banner img {
+        margin-left: -10%;
+    }
+
+    .carousel-careers .about-carousel .carousel-inner > .item > img {
+        min-height: 240px;
+    }
+
+    /*.about-carousel .item {
+        min-height: 240px;
+    }*/
+
+    .games-display li a {
+        margin-right: 0px !important;
+    }
+
+    .slider-screen {
+        min-height: 240px !important;
+    }
+
+    .games-half-image {
+        min-height: 254px;
+        background-size: cover !important;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .contact_banner .custom_banner {
+        background-size: 600px;
+    }
+
+
+    .games-page .carousel-inner .item {
+        background-size: 700px;
+        background-color: #ff7652;
+    }
+
+    .careersslide1 {
+        background-size: 740px;
+        background-color: #8e55ad;
+    }
+
+
+    .news-banner {
+        background-color: #1b9a87;
+        /*background-size: 700px;*/
+    }
+
+    .game-banner {
+        background-color: #5b2b81;
+        background-size: 760px;
+    }
+
+    .aboutslide1  {
+        background-color: #1b9a87;
+        background-size: 600px;
+
+    }
+
+}
+
+
+@media all and (max-width: 767px) and (orientation: landscape) {
+    /*
+#wrapper {
+	height: 254px !important;
+}
+#carousel img {
+	height: 254px !important;
+}
+#prev, #next {
+	height: 254px  !important;
+}
+*/
+    .about-carousel .carousel-inner > .item > img,
+    .about-carousel,
+    .about-carousel .item,
+    .carousel,
+    .news_banner,
+    .carousel-inner > .item > img,
+    .carousel .item,
+    .mini-image img {
+        height: 254px !important;
+        width: 100%;
+    }
+
+    .article_banner,
+    .custom_banner {
+
+        height: 254px !important;
+    }
+
+    .carousel-caption {
+        /*left: 38% !important;*/
+    }
+
+    .box {
+        width: 100%;
+        min-height: 310px;
+    }
+
+    .right {
+        text-align: left !important
+    }
+
+    #slider1_container, .slider-screen {
+        min-height: 240px !important;
+    }
+
+    .games-half-image {
+        min-height: 254px;
+        background-size: cover !important;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .so-widget-image {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media all
+and (min-width: 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media all
+and (max-width: 320px) {
+
+    .about-carousel .carousel-inner > .item > img,
+    .about-carousel,
+    .about-carousel .item,
+    .carousel,
+    .news_banner,
+    .carousel-inner > .item > img,
+    .carousel .item,
+    .mini-image img {
+        height: 180px !important;
+        width: 100%;
+    }
+
+    .article_banner,
+    .custom_banner {
+        height: 180px !important;
+    }
+
+    #slider1_container, .slider-screen {
+        min-height: 180px !important;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+.panel-body ul li:hover .hover{display: none;}
+
+.games_block li{
+	width: 100%;
+}
+
+.carousel-indicators{
+  /*display: none;*/
+  bottom: 2px;
+}
+
+.about-carousel .carousel-inner > .item > img,
+    .about-carousel,
+    .about-carousel .item,
+    .carousel,
+    .news_banner,
+    .carousel-inner > .item > img,
+    .carousel .item,
+    .mini-image img {
+        height: 180px !important;
+        width: 100%;
+    }
+
+    .article_banner,
+    .custom_banner {
+        height: 180px !important;
+    }
+
+    #slider1_container, .slider-screen {
+        min-height: 180px !important;
+    }
+
+    .square {
+      font-size: 15px;
+      padding: 7px 0 4px 0px;
+      width: 140px;
+    }
+
+    .carousel-caption .square {
+      margin-bottom: 4px;
+    }
+
+    .carousel-caption {
+      width: 140px;
+    }
+
+    .footer {
+      padding: 20px 0;
+    }
+
+
+
+
+    .contact_banner .custom_banner {
+      background-size: 680px;
+    }
+
+    .about_profile .custom_banner {
+
+    }
+
+
+    .news-banner {
+        background-color: #1b9a87;
+        /*background-size: 420px;*/
+    }
+
+    .careers-banner {
+        background-color: #3bb3f6;
+        background-size: 420px;
+    }
+
+    .game-banner {
+        background-color: #5b2b81;
+        background-size: 420px;
+    }
+
+    div.news-bg.item{
+        background-color: #fd8930;
+        background-size: 420px;
+    }
+
+    div.games-bg.item {
+        /*background-size: 420px;*/
+        background-color: #ff7652;
+        background-position: bottom;
+    }
+
+    .news_banner  {
+        background-color: #fd8930;
+        background-size: 420px;
+    }
+
+    .games-page .carousel-inner .item {
+        background-size: 420px;
+        background-color: #ff7652;
+    }
+
+    .careersslide1 {
+        background-size: 420px;
+        background-color: #8e55ad;
+    }
+
+    .aboutslide1 {
+        background-size: 420px;
+        background-color: #1b9a87;
+    }
+
+    .about_banner .custom_banner {
+        background-size: 420px;
+    }
+
+    .contact_banner .custom_banner {
+      background-size: 420px;
+    }
+
+
+    .pagination > li > a, .pagination > li > span {
+        font-size: 15px;
+        padding: 6px 8px !important;
+    }
+
+    button.less_btn, button.view-all {
+        font-size: 15px;
+        padding: 6px 0px;
+    }
+
+    .games-half-image {
+        min-height: 254px;
+        background-size: cover !important;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+/*@media all
+and (min-width: 768px)
+and (max-width: 1024px) {
+    /* Styles */
+    /*
+    .carousel .item, .news_banner, .custom_banner {
+        min-height: 254px;
+    }
+
+    .games-half-image {
+        min-height: 254px;
+        background-repeat: no-repeat;
+    }
+
+    .so-widget-image {
+        width: 100%;
+    }
+}*/
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: portrait) {
+
+    .box {
+        width: 100% !important;
+    }
+
+    .carousel-caption {
+        /*left: 40% !important;*/
+    }
+
+    .carousel,
+    .carousel .item,
+    .custom_banner {
+        height: 400px;
+    }
+
+    .games-half-image {
+        min-height: 400px;
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .screenshot, .slider-screen div, .slider-screen {
+        /* height: 307px !important; */
+        background-size: cover;
+    }
+
+    .so-widget-image {
+        width: 100%;
+    }
+
+    .about-custom .so-widget-sow-image div{
+        height: 254px;
+
+    }
+
+    .about-custom .custom_banner {
+        margin-left: 0px;
+        background-position: center center;
+    }
+
+    .contact_banner .custom_banner, .about_banner .custom_banner {
+        background-size: 1000px;
+    }
+
+    .games-page .carousel-inner .item {
+        background-size: 1000px;
+        background-color: #ff7652;
+    }
+
+    .careersslide1 {
+        background-size: 1000px;
+        background-color: #8e55ad;
+    }
+
+
+    .news-banner {
+        background-color: #1b9a87;
+        /*background-size: 1000px;*/
+    }
+
+    .game-banner {
+        background-color: #5b2b81;
+        background-size: 1000px;
+    }
+
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: landscape) {
+    .box {
+        width: 50%;
+        min-height: 440px !important;
+    }
+
+    .carousel,
+    .carousel .item,
+    .custom_banner {
+        height: 400px;
+    }
+
+    .games-half-image {
+        min-height: 400px;
+        background-size: cover;
+        background-position: center top;
+    }
+
+
+
+    .screenshot, .slider-screen div, .slider-screen {
+        height: 800px !important;
+        width: 100%;
+        background-size: contain;
+    }
+
+    .so-widget-image {
+        width: 100%;
+    }
+
+    .about-custom .so-widget-sow-image div{
+        height: 254px;
+    }
+
+    .about-custom .custom_banner {
+        margin-left: 0px;
+        background-position: center center;
+    }
+
+    .contact_banner .custom_banner, .about_banner .custom_banner {
+        background-size: 1000px;
+    }
+
+    .games-page .carousel-inner .item {
+        background-size: 1000px;
+        background-color: #ff7652;
+    }
+
+    .careersslide1 {
+        background-size: 1000px;
+        background-color: #8e55ad;
+    }
+
+
+    .news-banner {
+        background-color: #1b9a87;
+        /*background-size: 1000px;*/
+    }
+
+    .game-banner {
+        background-color: #5b2b81;
+        background-size: 1000px;
+    }
+
+    .news_banner {
+      background-size: 1000px;
+      background-color: #fd8930;
+    }
+
+
+}
+
+@media all and (max-width: 1024px){
+    .pull-left,
+    .pull-right{
+        float: none !important;
+    }
+    .box{width: 100%;}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width: 1025px) {
+    .carousel,
+    .news_banner,
+    .custom_banner,
+    .carousel .item {
+        height: 400px;
+    }
+
+    .games-half-image {
+          background-size: cover;
+          background-repeat: no-repeat;
+          min-height: 400px;
+          background-position: center;
+    }
+
+    .screenshot, .slider-screen div, .slider-screen {
+        height: 800px !important;
+        width: 100% !important;
+        background-size: contain;
+    }
+
+    .screenshot, .slider-screen div, .slider-screen img {
+        height: 800px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width: 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles */
+}
