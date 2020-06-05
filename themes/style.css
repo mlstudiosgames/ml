@@ -1,0 +1,728 @@
+@charset "utf-8";
+/*
+Theme Name: Storm8 WP
+Description: A wordpress theme for Storm8 Game site
+Author: Azhar
+Author URI: http://agscybertech.com/azhar
+Version: 1.0
+Tags: responsive, Landing Paghe,
+This simple theme was built using the Bootstrap theme "Lead Captureing " the theme developed by AGS - Azhar
+*/
+body{
+    margin: 0 !important;
+
+}
+.navbar-nav>li>a { font-size:11pt !important;}
+
+.posts { background-color:#FFF;}
+
+.box { width:50%; min-height:420px; }
+
+.featured { background-position:center 0; background-size:cover;}
+
+.content { padding: 5% 10%; color: #FFF;}
+
+.content p {font-family: AvenirNextLTPro-Regular;
+
+    font-size: 18px;
+
+    line-height: 30px;
+
+    text-align: left;
+
+    margin-top: 20px;}
+
+.right {text-align:right;}
+
+.left {text-align:left;}
+
+
+.carousel-caption .square{
+    margin-bottom: 44px;
+}
+.square a {
+    margin–left: -300px !important;
+}
+
+.pagination{
+    display: block !important;
+}
+/* Games page ================================================================================*/
+.hover .hoverlinks-wrapper-xhr{
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    display: block;
+    max-height: 20%;
+}
+.hover ul.hoverlinks{
+    margin-left: 0;
+    padding-left: 0;
+    width: auto;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    max-height: 100%;
+}
+
+.hover ul.hoverlinks li{
+    width: auto;
+    margin: 0 5px;
+}
+
+.hover ul.hoverlinks li a{
+    display: block;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.hover ul.hoverlinks li a img{
+    height: auto;
+    max-height: 42px;
+    width: auto;
+    padding: 2px;
+}
+
+.bx-wrapper .bx-viewport{
+    border: 0 !important;
+}
+
+.jvcontent{
+    display: block;
+}
+#wrapper {
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+#loader {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -64px;
+}
+#carousel img {
+    display: block;
+    float: left;
+    height: 400px;
+    width: auto;
+    padding: 0 4px;
+}
+#prev, #next {
+    height: 400px;
+    width: 15%;
+    top: 0;
+    position: absolute;
+}
+#prev {
+    left: 0;
+}
+#next {
+    right: 0;
+}
+#pager {
+    position: absolute;
+    left: 47%;
+    bottom: 10px;
+}
+#pager a {
+    border-radius: 10px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 7px 0 0;
+    background-color: #fff;
+}
+#pager a span {
+    display: none;
+}
+#pager a.selected {
+    background-color: #000;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    margin-bottom: -1px;
+}
+.carousel.slide ol.carousel-indicators li{
+    background-color: #ffc800;
+    border: none;
+}
+a.left.carousel-control span,
+a.right.carousel-control span{
+    display: block;
+    font-size: 2em;
+    color: white;
+    opacity: 0.25;
+    outline: white;
+    height: 100%;
+    vertical-align: middle;
+}
+a.left.carousel-control span:before,
+a.right.carousel-control span:before{
+      position: absolute;
+      top: 44%;
+      vertical-align: middle;
+}
+a.right.carousel-control span:before{
+    right: 0;
+}
+a.left.carousel-control span:before{    left: 0;
+
+}
+ul.nav.nav-tabs.games-display{
+    overflow: hidden;
+    vertical-align: middle;
+}
+ul.nav.nav-tabs.games-display li{
+        vertical-align: middle;
+        margin-bottom: 0px;
+}
+ul.change-title{
+    overflow: hidden;
+    padding-right: 0 !important;
+}
+ul.change-title li{
+    width: 120%;
+    padding-right: 0!important;
+}
+ul.nav.nav-tabs.games-display li a.apple,
+ul.nav.nav-tabs.games-display li a.android,
+ul.nav.nav-tabs.games-display li a.amazon{
+    vertical-align: middle;
+    padding: 0!important;
+    margin-top: 10px !important;
+    width: 36px;
+    height: 30px;
+}
+ul.nav.nav-tabs.games-display li a.apple img,
+ul.nav.nav-tabs.games-display li a.android img,
+ul.nav.nav-tabs.games-display li a.amazon img{
+    width: auto !important;
+    height: auto !important;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+
+}
+ul.nav.nav-tabs.games-display li.active a.apple,
+ul.nav.nav-tabs.games-display li.active a.android,
+ul.nav.nav-tabs.games-display li.active a.amazon{
+    width: 35px;
+    height: 35px;
+}
+#game-iframe{
+    margin-bottom: -5px;
+}
+#filter-label-header{
+    font-family: arial;
+    color: grey;
+    font-weight: 200;
+    cursor: pointer;
+}
+/*fix for carosel*/
+.item.careers-banner,
+.item.game-banner,
+.item.news-banner{
+    text-align: left!important;
+}
+.carousel-caption a {
+ text-align: center!important;
+}
+.active_page{
+  background:darkblue;
+  color:white !important;
+}
+.panel-body.games-page-list{
+    overflow: hidden;
+}
+.games-page-main-div{
+    overflow: hidden;
+}
+ul.news-page-content{
+    list-style: none;
+}
+ul.news-page-content li{
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    margin: 0 1.25% 6%;
+    padding: .5em;
+}
+ul.news-page-content li div.news_content{
+    padding: 0;
+    margin: 0;
+}
+ul.news-page-content li div.news_content h2 a{
+    color: black;
+}
+ul.news-page-content li div.news_content div.more-news a {
+    color: #ffc100 !important;
+}
+@media(max-width: 900px){
+    ul.news-page-content li{
+    display: inline-block;
+    vertical-align: top;
+    width: 99%;
+    margin: 0 .25% 1%;
+    padding: .5em;
+    }
+}
+.special-about-perry{
+    background-color: rgb(0, 119, 201);
+    background-color: #0077c9;
+}
+.special-about-tim{
+    background-color: rgb(27, 154, 135);
+    background-color: #1b9a87;
+}
+.special-about-steve{
+      background-color: rgb(50, 178, 249);
+      background-color: #32b2f9;
+}
+.special-about-terrance{
+    background-color: rgb(0, 119, 201);
+    background-color: #0077c9;
+}
+.special-about-william{
+    background-color: rgb(27, 154, 135);
+    background-color: #1b9a87;
+}
+.special-about-laura{
+    background-color: rgb(50, 178, 249);
+    background-color: #32b2f9;
+}
+ul.games_block{
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 0;
+    overflow: hidden;
+}
+.games_block li {
+    display: inline-block;
+    width: 32.5%;
+    margin: 0 .25% 1%;
+    height: auto;
+}
+#content_a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+#content_a > li{
+    float: none!important;
+    margin: 0 .25% .5% 0.25%;
+    padding: 0;
+    width: 32.5%;
+    overflow: hidden;
+}
+.tab-content{
+    clear: both;
+    margin: 0 auto;
+
+}
+.top-masthead{
+    position: fixed!important;
+    top: 0px;
+    margin-top: 0;
+    margin-left: 0;
+    max-width: 100%;
+}
+a.right.carousel-control > span.power8-right-carrot,
+a.left.carousel-control > span.power8-left-carrot{
+    background-size: 45px!important;
+    opacity: .65;
+}
+.about-perry-img > div > div{
+    background-position: top center;
+}
+.about-tim-image > div > div{
+    background-position: top center;
+}
+.about-steve-image > div > div{
+    background-position: top center;
+}
+.about-terance-image > div > div{
+    background-position: top center;
+}
+.about-william-image > div > div{
+    background-position: top center;
+}
+.about-laura-image > div > div{
+    background-position: top center;
+}
+#page_navigation_news .pagination li .currentViewing,
+#page_navigation_a .pagination li .currentViewing{
+    color: black;
+    cursor: default;
+}
+#page_navigation_news .pagination li .current,
+#page_navigation_a .pagination li .current{
+    color: black;
+}
+#page_navigation_a .pagination li .view-less,
+#page_navigation_news .pagination li .view-less{
+    color: black;
+}
+.custom-about-banner > div > div{
+    min-height: 400px;
+    
+}
+.panel-row-style-about-by-the-numbers{
+    min-height: 400px;
+    background-color: #f8f7f5;
+}
+.panel-row-style-about-by-the-numbers > div > div > div > img{
+    min-height: 400px;
+    max-width: 940px!important;
+    margin: 0 auto!important;
+}
+.filter-apps-01{
+    font-size: 18px;
+    font-family: AvenirNextLTPro-Demi;
+    color: #424143;
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 39px;
+    vertical-align: top;
+}
+.filter-apps-02{
+    font-size: 18px;
+    font-family: AvenirNextLTPro-Demi;
+    color: #424143;
+    display: block;
+    padding: 10px 0;
+    margin-bottom: 0;
+    height: 59px;
+    vertical-align: top;
+}
+.filter-apps-01 a,
+.filter-apps-02 a{
+    cursor: default;
+}
+.jv-careersite,
+.jv-careersite iframe{
+    height: 1650px;
+    max-width: 860px;
+    margin: 0 auto;
+}
+/*----Video Banners --*/
+.banner-video-wrapper{
+    position: relative;
+    height: 100%;
+}
+.banner-video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*-----------------------------*/
+@media (max-width: 1300px){
+    a.left.carousel-control span,
+    a.right.carousel-control span{
+        display: none;
+    }
+    .custom-about-banner > div > div{
+        background-size: 100%;
+    }
+}
+@media (max-width: 1024px){
+    #content_a > li{
+    width: 49%;
+    }
+}
+@media all and (max-width: 991px) and (orientation: landscape) {
+    #wrapper {
+        height: 254px;
+    }
+    #carousel img {
+        height: 254px;
+    }
+    #prev, #next {
+        height: 254px;
+    }
+}
+@media (max-width: 991px) and (orientation: portrait) {
+    #wrapper {
+        height: 254px;
+    }
+    #carousel img {
+        height: 254px;
+    }
+    #prev, #next {
+        height: 254px;
+    }
+}
+@media( max-width: 956px){
+    .panel-row-style-about-by-the-numbers{
+        min-height: 1%;
+
+    }
+    .panel-row-style-about-by-the-numbers > div > div > div > img{
+        min-height: 1%;
+        max-width: 940px!important;
+        margin: 0 auto!important;
+    }
+}
+@media (max-width: 768px){
+    .about-perry-img > div > div,
+    .about-tim-image > div > div,
+    .about-steve-image > div > div,
+    .about-terance-image > div > div,
+    .about-william-image > div > div,
+    .about-laura-image > div > div{
+        min-height: 350px;
+     }
+     .bg-hack-fixer{
+        /*background-size: 150%!important;   */
+    }
+    .panel-row-style-about-by-the-numbers > div > div > div > img{
+        max-width: 2000px!important;
+        width: 146%!important;
+    }
+}
+@media( max-width:  620px ){
+    div #content_n > li{
+        width: 100%;
+    }
+    .hover .hoverlinks-wrapper-xhr{
+        bottom: 5%;
+    }
+    .hover ul.hoverlinks li a img{
+        max-height: 32px;
+    }
+}
+@media(max-width: 480px ){
+    #content_a > li{
+        margin: 0 0% .5% 0;
+        width: 100%;
+    }
+    .carousel-indicators li{
+        width: 6px!important;
+        height: 6px!important;
+    }
+    .carousel-indicators li.active{
+        margin: 2px;
+    }
+    .carousel-indicators.home-indicators{
+        margin-top: 10px;
+        margin-bottom: -4px;
+    }
+}
+@media(max-width: 400px){
+    #filter-label-header{
+        display: none;
+    }
+}
+@media (min-width:374px) and (max-width: 378px){
+    /*Hack to fix the jumping menu ???? */
+    body.page-template-games-page-tpl > div > nav > div> div.navbar-header > button{
+        padding-right: 37px;
+    }
+}
+@media (min-width:359px) and (max-width: 373px){
+    /*Hack to fix the jumping menu ???? */
+    body.page-template-games-page-tpl > div > nav > div> div.navbar-header > button{
+        padding-right: 36px;
+    }
+}
+@media( max-width: 329px){
+    ul.news-ul-modifier{
+        width: 130%!important; /*yeah wierd I know*/
+        position: relative;
+        left: 50px;
+    }
+    ul.news-ul-modifier li{
+        padding:0;
+    }
+    ul.news-ul-modifier li a{
+        padding-right: 0!important;
+    }
+
+    ul.nav.nav-tabs.games-display li.filter-apps-02,
+    ul.nav.nav-tabs.games-display li.filter-apps-02 a{
+        display: none;
+    }
+    #btn2{
+        display: block;
+        margin-right: -2px;
+        clear: right;
+    }
+}    
+@media( max-width: 311px){
+
+    #gamesPowerFilter{
+        padding-left: 0;  
+   }
+}
+/* The next bit of css was cut out of the games inner page.... */
+
+
+#wrapper {
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.new-wrap #wrapper {
+    background-color: #fff;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+#loader {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -64px;
+}
+#prev, #next {
+    height: 800px;
+    width: 150%;
+    top: 0;
+    position: absolute;
+}
+#prev:hover, #next:hover {
+}
+#prev {
+    left: 0;
+}
+#next {
+    right: 0;
+}
+#pager {
+    position: absolute;
+    left: 47%;
+    bottom: 10px;
+}
+#pager a {
+    border-radius: 10px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 7px 0 0;
+    background-color: #fff;
+}
+#pager a:hover {
+}
+
+#pager a span {
+    display: none;
+}
+#pager a.selected {
+    background-color: #000;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    margin-bottom: -1px;
+}
+
+@media all and (max-width: 991px) and (orientation: landscape) {
+    #wrapper {
+        height: 508px !important;
+    }
+    #carousel img {
+        height: 508px !important;
+    }
+    #prev, #next {
+        height: 508px !important;
+    }
+}
+@media (max-width: 991px) and (orientation: portrait) {
+    #wrapper {
+        height: 508px !important;
+    }
+    #carousel img {
+        height: 508px !important;
+    }
+    #prev, #next {
+        height: 508px !important;
+    }
+}
+.new-wrap{
+    padding: 0 10% 0;
+}
+.new-wrap #wrapper{
+    height: 800px;
+}
+/**
+ * AJAX fade in effect.
+ * @author J
+ */
+#caroufredsel_wrapper{
+    overflow: visible;
+}
+.newajax {
+    -webkit-animation: fadeIn 0.4s ease-out;
+    -moz-animation: fadeIn 0.4s ease-out;
+    -o-animation: fadeIn 0.4s ease-out;
+    animation: fadeIn 0.4s ease-out;
+}
+.new-wrap #wrapper > div >  div> img {
+    display: block;
+    float: left;
+    height: 800px;
+    width: auto;
+    padding: 0 4px;
+}
+
+@-webkit-keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+@-moz-keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+@-o-keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}

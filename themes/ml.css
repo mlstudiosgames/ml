@@ -1,0 +1,2231 @@
+/** Globals*/
+@font-face {
+    font-family: AvenirNextLTPro-Demi;
+    src: url('fonts/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype');
+    src: local('â˜º'), url('fonts/AvenirNextLTPro-Demi.woff') format('woff'),
+    url('fonts/AvenirNextLTPro-Demi.ttf') format('truetype'),
+    url('fonts/AvenirNextLTPro-Demi.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirNextLTPro-Medium;
+    src: url('fonts/AvenirNextLTPro-Medium.eot?#iefix') format('embedded-opentype');
+    src: local('â˜º'), url('fonts/AvenirNextLTPro-Medium.woff') format('woff'),
+    url('fonts/AvenirNextLTPro-Medium.ttf') format('truetype'),
+    url('fonts/AvenirNextLTPro-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: AvenirNextLTPro-Regular;
+    src: url('fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype');
+    src: local('â˜º'), url('fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+     url('fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
+     url('fonts/AvenirNextLTPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: AvenirNextLTPro-Regular;
+    color: #555;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    font-family: AvenirNextLTPro-Regular;
+    color: #333;
+}
+
+a:hover,
+a:focus,
+a.active,
+a:visited {
+    text-decoration: none !important;
+}
+
+a:focus {
+    outline: none !important;
+    outline: none !important;
+    outline-offset: 0px !important;
+    text-decoration: none !important;
+}
+
+.prs {
+    padding-right: 3px;
+}
+
+.prm {
+    padding-right: 10px;
+}
+
+.pls {
+    padding-left: 3px
+}
+
+.plm {
+    padding-left: 10px;
+}
+
+.mrs {
+    margin-right: 3px;
+}
+
+.mrm {
+    margin-right: 10px;
+}
+
+.mls {
+    margin-left: 3px
+}
+
+.mlm {
+    margin-left: 10px;
+}
+
+.mts {
+    margin-top: 3px
+}
+
+.mtm {
+    margin-top: 10px;
+}
+
+.sow-slider-base .sow-slider-pagination {
+    text-align: center !important;
+}
+
+.career_head {
+}
+.career_head img {
+    width: 100%;
+    max-width: 440px;
+    float: right;
+}
+
+.news_list {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.news_list li {
+    display: inline-block;
+    width: 50%; /*margin:1%;*/
+    height: 280px;
+    float: left;
+    padding: 1%;
+}
+/*this MAX width may have to be changed to width:50*/
+.news_logo img {
+    max-height: 32px;
+    max-width: 280px;
+}
+
+/*ID verse*/
+
+
+.game-banner {
+    /*background: url('images/home_games_full.jpg') no-repeat center center;*/
+    background: url('images/home_carousel02.jpg') no-repeat center center;
+    background-size: cover;
+    /*min-height: 430px;*/
+    height: auto;
+    width: 100%;
+}
+
+.news-banner {
+    background: url('images/home_test.jpg') no-repeat center center;
+    /*background: url('images/home_carousel03.jpg') no-repeat center center;*/
+    /*background: url('images/home_news_full.jpg') no-repeat center center;*/
+    background-size: cover;
+    /*min-height: 430px;*/
+    height: auto;
+    width: 100%;
+}
+
+.about-banner {
+    background: url('images/home_about_full.jpg') no-repeat center center;
+    background-size: cover;
+    /*min-height: 430px;*/
+    height: auto;
+    width: 100%;
+}
+
+.careers-banner {
+    /*background: url('images/home_careers_full.jpg') no-repeat center center;*/
+    background: url('images/home_carousel01.jpg') no-repeat center center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+/*----------------------------------------------------------------------*/
+.about1 {
+    background: url('http://storm8/wp-content/uploads/2015/05/about01.jpg') no-repeat center center;
+    background-size: cover;
+    /*min-height: 430px;*/
+    height: auto;
+    width: 100%;
+}
+
+.about2 {
+    background: url('http://storm8/wp-content/uploads/2015/05/about02.jpg') no-repeat center center;
+    background-size: cover;
+    /*min-height: 430px;*/
+    height: auto;
+    width: 100%;
+}
+
+.about3 {
+    background: url('http://storm8/wp-content/uploads/2015/05/about03.jpg') no-repeat center center;
+    background-size: cover;
+    /*min-height: 430px;*/
+    height: auto;
+    width: 100%;
+}
+
+.about4 {
+    background: url('http://storm8/wp-content/uploads/2015/05/about04.jpg') no-repeat center center;
+    background-size: cover;
+    /*min-height: 430px;*/
+    height: auto;
+    width: 100%;
+}
+.about-custom {
+    display: block;
+
+}
+.boxout {
+    width: 100%;
+    border-top: 8px solid #f9c600;
+    border-bottom: 5px solid #e9e9e9;
+    padding: 16px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: AvenirNextLTPro-Demi;
+}
+
+.bejeweled {
+    height: 400px;
+}
+
+button.less_btn,
+button.view-all {
+    border: none;
+    background: none;
+    padding: 10px;
+    color: #e9e9e9;
+    font-family: AvenirNextLTPro-Demi;
+    font-size: 17px;
+}
+
+.less_button {
+    display: inline-grid;
+    display: block;
+    clear: both;
+    float: right;
+    color: black;
+    font-weight: bold;
+
+}
+
+.jssorb05 {
+    display: none;
+}
+
+#carousel-about img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    width: 190px;
+    margin: 0px auto;
+    z-index: 15;
+    padding-left: 0;
+}
+
+/* * Override Bootstrap's default container. */
+@media (min-width: 1200px) {
+    .container {
+        width: 1024px !important;
+    }
+
+    #menu-header-menu {
+        margin-right: -52px;
+    }
+
+    #menu-header-menu li a {
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+
+}
+
+.no-padding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* * Masthead for nav */
+.top-masthead {
+    background-color: rgba(233, 233, 233, 0.9);
+    position: fixed;
+    z-index: 57;
+    width: 100%;
+    -webkit-box-shadow: 0px 2px 13px -5px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 2px 13px -5px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 2px 13px -5px rgba(0, 0, 0, 0.23);
+    height: 58px;
+    backdrop-filter: blur(20px);
+}
+
+.circle {
+    width: 20px;
+    height: 10px; /*Half the Width */
+    background-color: #e9e9e9;
+    position: absolute;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    margin: 0px auto;
+    top: 0px;
+    left: 4px;
+}
+
+.outer {
+    position: relative;
+    border-left:5px solid #e9e9e9;
+    border-right: 5px solid #e9e9e9;
+    border-bottom: 5px solid #e9e9e9;
+    top: 3px;
+    width: 38px;
+    height: 19px; /* Half the width */
+    padding: 5px;
+    border-bottom-left-radius: 29px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 29px; /* 100px of height + 10px of border */
+    margin: 19px auto 0px;
+}
+/* old
+    .circle {
+        width: 20px;
+        height: 20px;
+        background-color: #e9e9e9;
+        position: fixed;
+        border-radius: 15px 15px 15px 15px;
+        -moz-border-radius: 15px 15px 15px 15px;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        margin: 0px auto;
+    }
+
+    .outer {
+        border: 5px solid #e9e9e9;
+        width: 38px;
+        height: 38px;
+        padding: 4px;
+        border-radius: 21px 21px 21px 21px;
+        -moz-border-radius: 21px 21px 21px 21px;
+        -webkit-border-radius: 21px 21px 21px 21px;
+        margin: 0px auto;
+    }
+*/
+
+.outer-container {
+    height: 0px;
+    margin-top: -22px;
+    display: block;
+}
+
+.push {
+    height: 58px;
+    width: 100%;
+}
+
+.navbar {
+    margin: 0 !important
+}
+
+.navbar-default {
+    background-color: transparent !important;
+    padding: 6px 0px 0px 0px;
+}
+
+.navbar-brand > img, .footer-logo img {
+    height: 34px;
+}
+
+.navbar-brand {
+    float: right;
+    margin: 5px 0px 0px 24px;
+}
+
+.navbar-nav > li > a {
+    font-family: AvenirNextLTPro-Demi;
+    /*ID change to 11pt or 16pt*/
+    font-size: 14pt;
+    color: #FFA502 !important; /* OLD  #f9c600 */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Nav links */
+.top-nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #30A7F2;
+}
+
+/*------- pt ------------------*/
+img.inner_game.block {
+    height: 400px;
+    width: 100%;
+}
+
+/*--------- pt --------------------*/
+.top-nav-item:hover, .top-nav-item:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+
+.team_box h2, .widget-title {
+    font-family: AvenirNextLTPro-Demi;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 5pt auto !important;
+}
+
+.team_box h2 {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.team_box {
+    padding: 8%
+}
+.news_content h2 {
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.team-title {
+    font-size: 27px;
+/*    line-height: 40px;*/
+}
+
+.team-subtitle, .back-button {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-family: AvenirNextLTPro-Medium;
+    text-transform: uppercase;
+}
+
+.news_date {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: AvenirNextLTPro-Medium;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.news_featured_image img {
+    max-height: 50px;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.textwidget ul li {
+    margin-bottom: 16px;
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 15pt;
+}
+
+.contact_list li {
+    display: block;
+    margin-bottom: 10px !important
+}
+
+.contact_list li a {
+    color: #FFF;
+    font-family: AvenirNextLTPro-Demi;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 38px;
+}
+.play-more {
+    bottom: 18%;
+    left: 35%;
+}
+
+.team_box p {
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.medium, .textwidget ul li, #menu-footer-left li a, #menu-footer-right li a, .footer-right div#text-2, .promo-text, .sub-title, .article_content {
+    font-size: 18px;
+    line-height: 32px;
+	font-weight: 1000;
+}
+
+.promo-text {
+    font-family: AvenirNextLTPro-Regular;
+    margin-top: 8px !important;
+    /*margin-bottom: 20px;*/
+    margin-bottom: 15px;
+    color: #424143;
+    font-size: 15px;
+    line-height: 26px;
+
+}
+
+#menu-footer-left li a, #menu-footer-right li a, .footer-right div#text-2 {
+    font-family: AvenirNextLTPro-Regular;
+    color: #f9c600;
+}
+
+.small {
+    font-size: 1.15em;
+    line-height: 1.4em;
+}
+
+.l_align {
+    text-align: left;
+}
+
+.c_align {
+    text-align: center;
+}
+
+.r_align {
+    text-align: right;
+}
+
+/* Active state gets a caret at the bottom */
+.top-nav .active {
+    color: #fff;
+}
+
+.top-nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
+#menu-footer-left, #menu-footer-right {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-footer-left li, #menu-footer-right li {
+    display: block;
+    line-height: 22px;
+
+}
+
+/* CUSTOMIZE THE CAROUSEL-------------------------------------------------- */
+/* Carousel base class */
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+/*    background-color: #5983ab;*/
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.square {
+    background-color: rgba(160, 160, 160, 0.3);
+    padding: 10px 7px 7px 7px;
+    width: 190px;
+    font-size: 14pt;
+    font-family: AvenirNextLTPro-Medium;
+    border: solid 1.5px #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-align: center !important;
+    letter-spacing: 2px;
+    color: #FFF;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.square-01 {
+    padding: 10px 7px 7px 7px;
+    width: 190px;
+    font-size: 14pt;
+    font-family: AvenirNextLTPro-Medium;
+    border: solid 0.11em #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-align: center !important;
+    letter-spacing: 2px;
+    color: #FFF;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+
+.square-02 {
+    padding: 12px 24px 9px 24px;
+    width: 190px;
+    font-size: 14pt;
+    font-family: AvenirNextLTPro-Medium;
+    border: solid 0.11em #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-align: center !important;
+    letter-spacing: 2px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.square:hover, .square:active, .square-01:hover, .square-01:active, .square-02:hover, .square-02:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+div.games-page .square {
+    background-color: black !important;
+}
+
+.blue {
+    background: #0077c9;
+}
+
+.green {
+    background: #007f2e;
+}
+
+.yellow {
+    background: #ff891d;
+}
+
+.purple {
+    background: #8c2689;
+}
+
+#career-banner-caption a {
+    background-color: #ffc800 !important;
+}
+
+#carousel-games > ol {
+    margin-bottom: 10px;
+
+}
+
+.carousel-indicators {
+    bottom: 5px !important;
+}
+
+#carousel-careers .carousel-indicators li {
+    background-color: #ffc800;
+}
+
+.carousel-indicators .active {
+    background-color: #fff !important;
+}
+
+#carousel-careers .carousel-indicators li {
+    border: transparent !important;
+}
+
+#carousel-games .carousel-indicators li {
+    border: transparent;
+}
+
+#carousel-games .carousel-indicators li {
+    background-color: #ffc800;  /*#ff891d;*/
+}
+
+div.games-page #carousel-games .carousel-indicators li {
+    background-color: black;
+}
+
+div.games-page #carousel-games .carousel-indicators li:active {
+    background-color: white !important;
+}
+
+.career-text {
+    font-size: 16pt;
+    display: block;
+    padding-top: 34%;
+    color: #ffc800;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.doll {
+    width: 100%;
+    max-width: 450px;
+}
+
+.monopoly {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto !important
+}
+
+.carousel-inner > .item {
+    width: 100%;
+    height: 400px;
+
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    height: 400px;
+    display: block;
+    margin: 0 auto
+    /*min-height: 300px;*/
+}
+
+.custom_banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+div.careers-bg.item {
+    background-color: #32b2f9;
+}
+
+div.games-bg.item {
+    background-color: #fbbd06;
+    /*background: url('images/game-bg.jpg') no-repeat center center;*/
+    /*background: url('images/game-bg-test.jpg') no-repeat center center;*/
+    background: url('images/home_games03.jpg') no-repeat center center; /*The new one */
+    background-size: cover;
+}
+
+div.careers-bg.item {
+    background-color: #fbbd06;
+    background: url('images/home_careers_v2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+div.news-bg.item {
+    background-color: #fd8930;
+    background: url('images/news-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#carousel-news{
+    background-color: #fd8930;
+}
+
+div.about-bg.item {
+    background-color: #fbbd06;
+    background: url('images/about-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+div.gameslide1.item {
+    background-color: #ff7652;
+    background: url('images/home_games_full.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+div.gameslide2.item {
+    background-color: #ff7652;
+    background: url('images/home_games_full.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+div.gameslide3.item {
+    background-color: #ff7652;
+    background: url('images/home_games_full.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
+.aboutslide1{
+    background-size: 1120px;
+    background-color: #1b9a87;
+
+}
+
+
+
+h1.block-text {
+    padding: 80px;
+}
+
+.a_no_color {
+    color: inherit;
+}
+
+/* * Footer */
+.footer {
+    padding: 40px 0;
+    color: #30A7F2;
+    background-color: #e9e9e9;
+}
+
+.footer a, .footer p {
+    font-size: 1.18em;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.navbar-default .navbar-toggle {
+    border: none !important;
+    float: right !important;
+}
+
+.news_banner {
+    background: url('images/news_banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+
+}
+
+.featured_article {
+    background: #0077c8;
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    min-height: 400px;
+
+}
+
+.featured-article-photo {
+    background: url('images/article_photo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.featured_article p {
+    margin-bottom: 20px;
+}
+
+.news_press {
+    border: none !important;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    margin-bottom: 0px !important;
+}
+
+.news_press ul {
+    border: none !important;
+    padding: 1% 0%;
+}
+
+.nav-tabs a {
+    border: none !important;
+    color: #848484;
+    font-size: 18px;
+    font-family: AvenirNextLTPro-Regular;
+}
+
+.news_press ul li.active a {
+    color: #424143 !important;
+    font-family: AvenirNextLTPro-Demi;
+}
+
+.news_press ul li.filter {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: AvenirNextLTPro-Regular;
+    color: #424143;
+}
+
+.news_press ul li a:hover, .news_press ul li a:focus {
+    background: transparent !important;
+    border: none !important;
+}
+
+/*.news_press .panel-body {
+    padding: 1% 0%;
+}*/
+
+.read_more, .back-button {
+    font-family: AvenirNextLTPro-Demi;
+    text-transform: uppercase;
+    /*font-size: 18px;*/
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: inherit;
+    display: block;
+    margin-top: 20px;
+}
+
+.read_more {
+    font-size: 13px;
+}
+
+.articles-head {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: AvenirNextLTPro-Regular;
+    color: #424143;
+}
+
+.article_banner {
+    background: url('images/news-article-photo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    /*display:none; */
+
+}
+
+.inner-page {
+    padding: 5% 10% !important;
+}
+
+.article_heading {
+    font-family: AvenirNextLTPro-Regular;
+    color: #424143;
+    font-size: 30px;
+    line-height: 30pt;
+    margin-top: 10px;
+}
+
+.article_content {
+    font-family: AvenirNextLTPro-Regular;
+    color: #424143;
+    font-size: 18px;
+    line-height: 1.8em;
+    padding: 1% 0%;
+
+    margin-bottom: 5%;
+
+}
+
+.page-content {
+    font-family: AvenirNextLTPro-Regular;
+    color: #424143;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.articles, .back-button {
+    padding: 0 12% !important;
+}
+
+.back-button a {
+    color: #ffc100;
+}
+
+.back-button {
+    margin: 40px 0px;
+}
+
+.games_banner {
+    background: url('images/games_bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.games-list img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+
+}
+
+.games-list {
+    max-height: 270px;
+    overflow: hidden;
+}
+
+.games-list a:hover {
+
+}
+
+.games-head {
+    padding: 20px 40px;
+    font-size: 18px;
+    font-family: AvenirNextLTPro-Regular;
+    color: #424143;
+}
+
+.games-display {
+    border-bottom: none !important;
+    display: block;
+}
+
+li#games-title {
+    padding:18px;
+    font-size: 18px;
+    font-family: AvenirNextLTPro-Demi;
+    color: #424143;
+    display: block;
+}
+
+.games-display li a {
+    border: none !important;
+    background: transparent !important;
+}
+
+.games-display li a:hover {
+
+}
+
+.games-display li.active a {
+    border: none !important;
+    color: #424143 !important;
+}
+
+.games-display li a {
+    /*    color: #e9e9e9 !important;*/
+    padding: 7px 8px !important;
+    webkit-transition: none !important;
+    transition: none !important;
+}
+
+/*.games-display li.active a.amazon img {*/
+/*background: url('images/amazon_dark.png') no-repeat bottom;*/
+/*width: 50px;*/
+/*height: 50px;*/
+/*z-index: 10;*/
+/*}*/
+
+.games-display li a.amazon {
+    background: url('images/amazon_gray.png') no-repeat bottom;
+    width: 50px;
+    height: 50px;
+}
+
+.games-display li.active a.amazon {
+    background: url('images/amazon_active.png') no-repeat bottom;
+    width: 50px;
+    height: 50px;
+}
+
+.games-display li a.android {
+    background: url('images/android_gray.png') no-repeat bottom;
+    width: 43px;
+    height: 50px;
+    padding-top: 3px;
+}
+
+.games-display li.active a.android {
+    background: url('images/android_dark.png') no-repeat bottom;
+    width: 43px;
+    height: 50px;
+    padding-top: 3px;
+}
+
+.games-display li a.apple {
+    background: url('images/apple_gray.png') no-repeat bottom;
+    width: 50px;
+    height: 50px;
+}
+
+.games-display li.active a.apple {
+    background: url('images/apple_dark.png') no-repeat bottom;
+    width: 50px;
+    height: 50px;
+}
+
+.games-display > li > a:hover {
+    border-color: #ffffff !important;
+}
+
+/*The android, apple, and amazon image sizes in the filter*/
+#btn2 img, #btn3 img, #btn4 img {
+    height: 35px;
+    padding-top: 5px;
+
+}
+
+button.less_btn:active, button.view-all:active,
+button.less_btn:hover, button.view-all:hover {
+    color: #424143;
+}
+
+.games-display > li > a:hover, .games-display > li > a:focus {
+    background-color: transparent !important;
+
+}
+.games-page-list {
+    padding: 5px !important;
+}
+
+a.game-images {
+    display: block;
+}
+
+.no-panel {
+    margin-bottom: 0px !important;
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.inner_game {
+    background-size: cover;
+    min-height: 400px;
+    height: auto;
+    width: 100%;
+}
+
+.games-explore img {
+}
+
+.games-explore #carousel {
+    background-color: #f9f9f9;
+}
+
+
+.more-fun {
+    display: block;
+    float: left;
+    position: relative;
+
+    width: 100%;
+}
+
+
+.row-centered {
+    text-align:center;
+    background-color: #f5f5f5;
+    height: 800px;
+
+}
+
+.download-games {
+    width: 100%;
+    height: 400px;
+    display: block;
+    padding: 14% 22%;
+    color: #ffffff;
+    background-color: #ff7652;
+}
+
+.games-description {
+    padding: 40px 12%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+ul.download-links {
+    padding: 18px 0px;
+    text-align: center;
+}
+
+ul.download-links li {
+    display: inline;
+}
+
+ul.download-links li a {
+    padding: 20px 20px;
+}
+
+ul.download-links li a img {
+    height: 43px;
+}
+
+ul.download-links-top {
+    float: right;
+
+}
+
+ul.download-links-top li {
+    display: block;
+    padding: 4px 4px 5px 4px;
+}
+
+ul.download-links-top li a img {
+    width: 130px;
+
+}
+
+.forum-button {
+    width: 130px;
+    border: 2px solid #a3a3a3;
+    color: #a3a3a3;
+    text-align: center;
+    padding: 8px 8px 6px 8px;
+    font-size: 17px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.download-btn {
+    text-align: center;
+}
+
+.read_more:hover {
+    text-decoration: none;
+}
+
+.norm_row.sfsi_wDiv {
+    bottom: 7em;
+    left: 20em;
+}
+
+.download-text {
+    color: #FFF;
+    font-size: 24px;
+    line-height: 27pt;
+}
+
+.games-list {
+    position: relative;
+}
+
+.games-title {
+    position: absolute;
+    top: 8%;
+    left: 6%;
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 21px !important;
+    font-family: AvenirNextLTPro-Regular;
+}
+
+/*individual game changes*/
+body > div.more-fun > div:nth-child(2) > div:nth-child(2) > div > div.download-btn {
+    margin-top: 20px !important;
+}
+
+body > div.more-fun > div:nth-child(2) > div:nth-child(2) > div {
+    padding-top: 11% !important;
+    padding-bottom: 11% !important;
+    height: 400px;
+}
+
+.panel-body ul li {
+    position: relative;
+
+}
+
+.panel-body ul li .hover {
+    visibility: hidden;
+
+    transition-timing-function: ease;
+    transition-duration: 0.15s;
+}
+
+.panel-body ul li:hover .hover {
+    position: absolute;
+    display: block;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.7);
+    z-index: 40;
+    text-align: center;
+    cursor: pointer;
+    transition-timing-function: ease;
+    transition-duration: 0.15s;
+}
+
+.hover .square-01 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -100px;
+
+}
+
+.tint {
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.level-7 {
+    background: url('images/level-7.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.restaurant-bg {
+    background: url('images/restaurant-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.dream-restaurant {
+    background: url('images/dream-restaurant.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.news {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.synved-social-image {
+    width: 40px !important;
+    height: 44px !important;
+}
+
+.social-media {
+    float: right;
+    padding-right: 7px;
+
+}
+
+.orange {
+    padding: 14% 22%;
+}
+
+.pagination {
+    display: none;
+}
+
+.pic-caption a {
+    display: block;
+    width: 170px;
+    padding: 10px;
+    position: absolute;
+    bottom: 35%;
+    left: 26.5%;
+    color: #FFF;
+    text-decoration: none;
+    border: solid 2px #FFF;
+    font-size: 15pt;
+    font-family: AvenirNextLTPro-Regular;
+}
+
+.pic-caption a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+.sow-slider-image {
+    max-height: 400px !important;
+}
+
+.so-widget-sow-image img {
+    max-height: 400px;
+}
+
+.so-widget-sow-image {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.contact_text {
+    line-height: 38px;
+}
+
+/*.about-carousel {
+  height: 388px;
+}
+
+.about-carousel .item {
+  min-height: 388px;
+}*/
+
+.about-carousel .carousel-inner > .item > img {
+    min-height: 400px;
+}
+
+.about-more {
+    padding: 10px 30px;
+    font-size: 13pt;
+    font-family: AvenirNextLTPro-Regular;
+    border: solid 1px #fff;
+    text-transform: uppercase;
+    text-align: center !important;
+    letter-spacing: 2px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.about-more:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #e7e7e7;
+    border: none !important;
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 17px;
+    padding: 6px 10px !important;
+}
+
+
+#article-filter-type .nav > li > a {
+  padding-left: 0px;
+}
+
+.pagination li a.previous_link {
+    color: #424143 !important;
+    font-family: AvenirNextLTPro-Demi;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.view-all {
+    float: right;
+}
+
+.view-all:focus,
+.less_btn:focus {
+    outline: none !important;
+}
+
+.view-all a {
+    color: #e9e9e9;
+}
+
+.view-all a:hover, .view-all a.active {
+    color: #424143 !important;
+}
+
+/*-- games inner page slider --*/
+
+.slider-screen {
+    display: none;
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* min-height: 590px; */
+    height: auto;
+    overflow: hidden;
+}
+
+.screenshot {
+    cursor: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 590px;
+    height: auto;
+    overflow: hidden;
+}
+
+.screenshot-image {
+    min-height: 800px;
+    /*background-size: contain !important;*/
+    /*background-size: auto 800px !important;*/
+}
+
+.screenshot-image img {
+    min-height: 590px;
+    height: auto;
+}
+
+.games-half-image img {
+    width: 100%;
+}
+
+.tagline {
+    font-family: AvenirNextLTPro-Demi;
+    color: #424143;
+    font-size: 20px;
+    line-height: 24pt;
+    margin-top: 15px;
+}
+
+.thumb {
+    padding: 5px;
+    border: 1px solid #e6e6e6;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.same-line {
+    float: right;
+    width: 40%;
+}
+
+.float-left {
+    float: left;
+    width: 40%
+}
+
+.float-left img {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.same-line img {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.same-line cite {
+    font-size: 15px;
+    padding: 0px 30px;
+}
+
+.float-left cite {
+    font-size: 15px;
+    padding: 0px 6px;
+}
+
+.press-section {
+    height: 345px !important;
+}
+
+.space-between {
+    height: 30px;
+}
+
+.image-cribs {
+    padding-left: 0px;
+}
+
+.image-cribs li {
+    display: inline-block;
+    width: 25%;
+    margin: 1%;
+}
+
+.image-cribs img {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.tour {
+    margin-top: 320px;
+}
+
+.mini-image img {
+    height: auto;
+}
+
+.all-games-head {
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: AvenirNextLTPro-Demi;
+    color: #424143;
+}
+
+.all-games-btn {
+    padding: 10px;
+    width: 195px;
+    font-size: 13pt;
+    font-family: AvenirNextLTPro-Regular;
+    border: solid 2px #fff;
+    text-transform: uppercase;
+    text-align: center !important;
+    letter-spacing: 2px;
+    color: #FFF;
+    /* margin-bottom: 18px; */
+    text-decoration: none;
+}
+
+.all-games-btn:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.page-bottom {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.view-all-page {
+    position: absolute;
+    right: 3em;
+    bottom: 1em;
+}
+
+@media (max-width: 767px) {
+    .games_block li {
+        width: 49%;
+    }
+
+
+    .medium, .textwidget ul li, .team_box p, #menu-footer-left li a, #menu-footer-right li a, .footer-right div#text-2, .promo-text, .sub-title, .article_content {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .article_heading {
+        font-size: 30px;
+    }
+    .featured-article-photo{
+        height: 254px;
+    }
+
+    h3.widget-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .download-btn {
+        margin-bottom: 10px;
+    }
+
+    li#games-title, .all-title {
+        margin-left: 0px;
+        display: none;
+    }
+
+    .article_heading {
+        margin-top: 12px;
+    }
+
+    .sub-title {
+        margin-top: 15px;
+    }
+
+    .news_list li {
+        display: inline-block;
+        width: 96%;
+        height: auto;
+        padding: 1% !important;
+    }
+
+    .press-section {
+        height: auto !important;
+    }
+
+    
+
+    .carousel-inner > .item {
+        height: 254px;
+
+    }
+
+    .carousel-inner > .item > img {
+        height: 254px;
+
+    }
+    body > div.more-fun > div:nth-child(2) > div:nth-child(2) > div {
+    padding-top: 8% !important;
+    padding-bottom: 8% !important;
+        height: 254px;
+    }
+
+
+    .news_list li {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 1%;
+    }
+
+    .news-filter {
+        border-bottom: 1px solid #dedede;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    /*minght need to be put into conditional*/
+    .resp {
+        width: 100%;
+        height: auto;
+    }
+    .mini-image img {
+        height: 254px;
+    }
+    .top-masthead {
+        height: 58px;
+    }
+    .navbar-default {
+
+    }
+    .screenshot {
+        width: 100% !important;
+    }
+    .slider-screen {
+        width: 100% !important;
+        min-height: 350px;
+    }
+    .screenshot-image img {
+        min-height: 350px;
+        height: auto !important;
+
+    }
+    .inner_game {
+        min-height: 254px;
+    }
+
+    img.inner_game.block {
+        height: 254px;
+    }
+
+    .games-explore img {
+    }
+
+
+    .games-half-image {
+        min-height: 254px;
+        background-size: cover !important;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .contact_list li a {
+        line-height: 28px;
+    }
+
+    .download-text {
+        font-size: 18px;
+        line-height: 22pt;
+    }
+
+    .synved-social-button {
+        margin-right: 20px !important;
+    }
+
+    .navbar-brand {
+        padding-right: 20px !important;
+    }
+
+    .career-text {
+        font-size: 1.5em;
+        color: #FFF;
+        line-height: 22px;
+        text-align: center;
+    }
+    .career-text {
+        padding: 10px !important;
+    }
+
+    ul#menu-header-menu {
+        float: none !important;
+        margin-top: 0px !important;
+        background: url('images/cat.png') no-repeat #f8f7f5 bottom right;
+        background-size: 230px;
+        min-height: 485px;
+        height: auto;
+        border-top: 1px solid #dedede;
+        margin-bottom: 0px !important;
+    }
+
+    ul#menu-header-menu li {
+        border-bottom: 1px solid #dedede;
+    }
+
+    .navbar-nav > li > a {
+        padding: 22px 32px 20px 32px !important;
+        font-size: 12px;
+		font-weight: 900;
+    }
+
+    .social-media {
+        text-align: center;
+        padding: 2px;
+        float: none;
+    }
+
+    .footer-logo {
+        text-align: center;
+        padding: 0px 0px 8px 0px;
+    }
+    .games-list img {
+        height: auto;
+    }
+
+    .games-explore img {
+    }
+
+    ul.download-links-top {
+        display: none;
+    }
+
+    .orange {
+        padding: 12% 10%;
+    }
+
+    ul.contact_list {
+        display: inline;
+    }
+
+    .shift-left {
+        text-align: left;
+    }
+
+    /*.news_press .panel-body {
+        padding: 2% 0%;
+    }*/
+
+    .adjust {
+        padding: 4% 8% !important;
+    }
+
+    .fine-adjust {
+        padding: 2% 2% !important;
+    }
+
+    .articles {
+        padding: 4% 8% !important;
+    }
+
+    .navbar-brand {
+        padding-right: 20px !important;
+    }
+
+    .carousel-caption {
+        text-align: start !important;
+
+    }
+
+    .contact-first {
+        padding: 12% 2% 0% 2% !important;
+        margin-bottom: -32px;
+
+    }
+
+    .contact-second {
+        padding: 0% 0% 1% 5%;
+    }
+
+    .contact-third {
+        padding: 12% 2% 1% 5% !important;
+    }
+
+    .contact-fourth {
+        padding: 12% 2% 8% 5% !important;
+    }
+
+    .download-games {
+        padding: 7% 5%;
+        height: 254px;
+    }
+
+    .news-resp {
+        width: 100%;
+        height: auto;
+    }
+
+    .news_date {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .carousel {
+        height: 254px;
+    }
+
+    .join-us {
+        padding: 15% 0 !important;
+    }
+
+    .team-title {
+        margin: 0px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    #pl-84 > .panel-grid:nth-child(2n+4) > div.siteorigin-panels-stretch > div:nth-child(1) {
+        width: 100%;
+    }
+    .about-custom-mobile {
+    display: block;
+}
+
+  .carousel-indicators {
+      bottom: 0px !important;
+      margin-bottom: -1px;
+  }
+
+  .carousel-caption .square    {
+      margin-bottom: 14px;
+
+  }
+
+  .square {
+    font-size: 12pt;
+    padding: 9px 5px 5px 5px;
+
+  }
+  .custom_banner{
+    height: 254px;
+  }
+
+  .carousel-indicators .li {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+  }
+
+      .contact_banner .custom_banner {
+          background-size: 700px;
+      }
+
+      .games-page .carousel-inner .item {
+          background-size: 700px;
+          background-color: #ff7652;
+      }
+
+      .careersslide1 {
+          background-size: 660px;
+          background-color: #8e55ad;
+      }
+
+      .aboutslide {
+          background-size: 700px;
+          background-color: #1b9a87;
+        }
+
+      .news-banner {
+          background-color: #1b9a87;
+          /*background-size: 700px;*/
+      }
+
+      .game-banner {
+          background-color: #5b2b81;
+          background-size: 700px;
+      }
+
+      .div.news-bg.item {
+        background-color: #fd8930;
+        background-size: 560px;
+
+      }
+
+      .about_profile .custom_banner  {
+          background-position: top center;
+      }
+
+      .aboutslide1  {
+          background-color: #1b9a87;
+          background-size: 600px;
+
+      }
+
+
+
+      .careers-banner {
+          background-color: #3bb3f6;
+          background-size: 780px;
+      }
+
+
+      div.news-bg.item{
+          background-color: #fd8930;
+          background-size: 660px;
+      }
+
+      div.games-bg.item {
+          /*background-size: 680px;*/
+          background-color: #ff7652;
+          background-position: bottom;
+      }
+
+      .news_banner  {
+          background-color: #fd8930;
+          background-size: 780px;
+          height: 254px;
+      }
+
+
+      .about_banner .custom_banner, {
+          background-size: 470px;
+      }
+
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Possible tablet*/
+    .games_block li {
+        width: 49%;
+    }
+
+	/* This is the icons, rather than the games themselves */
+    .games_block .hover li {
+        display: inline-block;
+        width: 33%;
+        height: auto;
+
+    }
+
+    .about-carousel .carousel-inner > .item > img, .about-carousel, .about-carousel .item, .so-widget-image {
+        min-height: 254px;
+    }
+
+
+
+    .article_banner {
+        /* min-height:254px; */
+    }
+
+    .bejeweled {
+        width: 100%;
+        height: auto;
+    }
+    .career_head img {
+        width: 90%;
+        float: none;
+    }
+
+    .contact_text {
+        line-height: 30px;
+    }
+
+    div.news-bg.item {
+      background-size: 1200px;
+    }
+
+
+}
+
+/*@media (max-width: 767px) {*/
+
+/*ul#menu-header-menu {*/
+/*float: none !important;*/
+/*margin-top: 0px !important;*/
+/*background: url('images/cat.jpg') no-repeat #f8f7f5 bottom right;*/
+/*min-height: 430px;*/
+/*height: auto;*/
+/*border-top: 1px solid #0077c8;*/
+/*margin-bottom: 0px !important;*/
+/*}*/
+
+/*ul#menu-header-menu li {*/
+/*border-bottom: 1px solid #0077c8;*/
+/*}*/
+
+/*.navbar-nav > li > a {*/
+/*padding: 20px 50px !important;*/
+/*}*/
+
+/*}*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .download-games {
+        padding: 4.5% 10%;
+        height: 254px;
+    }
+
+    .download-text {
+        color: #FFF;
+        font-size: 18px;
+        line-height: 27pt;
+    }
+
+
+    .download-btn .square, .download-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .more-fun {
+        display: block;
+    }
+
+    .games-explore img {
+    }
+
+    .bejeweled,
+    .news-resp {
+        width: 100%;
+    }
+
+    .team_box p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .download-games {
+        padding: 14% 10%;
+    }
+
+    .orange {
+        padding: 10% 10%;
+    }
+
+    .news-resp {
+        width: 100%;
+    }
+
+    body {
+        color: black !important;
+    }
+
+}
+
+
+@media (min-width: 1500px) {
+
+    .games-half-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .games-max {
+        max-width: 750px;
+    }
+
+    .more-fun {
+      width: 1500px;
+      position: absolute;
+      margin: 0px auto;
+
+      margin: 0px 0 0 -750px;
+      left: 50%;
+
+    }
+
+
+}
+
+
+/*about page pic size*/
+@media all
+and (min-width: 1024px) {
+    #panel-84-2-0-0 > div > div > div {
+        max-height: 420px !important;
+    }
+}
+
+
+.team_box > .textwidget {
+/*    min-width: 405px;*/
+
+}
+
+.pagination {
+    /*padding: 1px 18px !important;*/
+    margin: 0 !important;
+}
+
+#page_navigation_n, #page_navigation_n .pagination {
+    padding-left: 0;
+}
+
+#pl-84 > .panel-grid:nth-child(2n+4) > div.siteorigin-panels-stretch > div:nth-child(1) {
+	float: right;
+}
+
+
+
+.about-custom .custom_banner {
+    margin-left: -100px;
+    background-position: left center;
+}
+
+.pln {
+  padding-left: 0;
+}
+/*Kicks the body down, when logged in */
+body.logged-in{
+    margin-top: 32px!important;
+}
+body.logged-in > div.top-masthead{
+    margin-top: 32px!important;
+}
+
+/* A New Blog Design */ 
+
+@media (min-width: 992px) {
+.featured-article-photo {
+	width: 200% !important;
+}
+}
+
+@media (min-width: 992px) {
+ .col-blog {
+	height: 400px !important;
+    background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(7px);
+ }
+ .col-blog {
+	 width: 50%;
+	 float: left;
+	     position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+ }
+ 
+.square {
+backdrop-filter: blur(7px); 
+}
+
+/* New Games Hover ANimation */
+.panel-body ul li:hover .hover {
+	backdrop-filter: blur(7px); 
+}
+	
+/* disable scroll, creates cleaner design */
+/* width  */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Double Updates Row */
+.updaterow {
+    column-count: 2;
+-webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+/* Margin games */
+.panel-body.games-page-list {
+	margin-left: 1.25% !important;
+	margin-right: 1.25% !important;
+}
+
+ul.change-title {
+	padding-left: 0px !important;
+}
+li#games-title {
+    padding: 18px 0 18px 5px;
+}
+/* Update Banner*/
+.cookiebanner {
+    background: rgba(0, 0, 0, 0.9) !important;
+	backdrop-filter: blur(7px) !important; 
+	padding: 6px 16px !important;
+
+}
