@@ -2258,4 +2258,12 @@ background-color: rgba(21, 21, 21, 0.9);
 body {
 background-color: #000;
 	}
+
+li#games-title {
+	color: #fff;
+	}
+.panel-body ul li:hover .hover {
+    background-color: rgba(0, 0, 0, 0.7);
+	}
+
 }
