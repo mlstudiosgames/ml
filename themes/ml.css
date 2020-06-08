@@ -283,7 +283,7 @@ button.view-all {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
-
+/*
 .circle {
     width: 20px;
     height: 10px; /*Half the Width */
@@ -295,6 +295,7 @@ button.view-all {
     top: 0px;
     left: 4px;
 }
+*/
 /*
 .outer {
     position: relative;
@@ -2280,5 +2281,15 @@ color: #fff !important;
 	}
 .download-games {
     background-color: #95412b !important;
+	}
+/* News Fixes */
+	.panel, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+		background-color: #000 !important;
+	}
+	.news_press ul li.active a, ul.news-page-content li div.news_content h2 a {
+		color: #fff;
+	}
+	.promo-text {
+		color: #cccccc;
 	}
 }
