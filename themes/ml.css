@@ -281,7 +281,7 @@ button.view-all {
     box-shadow: 0px 2px 13px -5px rgba(0, 0, 0, 0.23);
     height: 58px;
     backdrop-filter: blur(10px);
-    -webkit-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .circle {
@@ -2163,7 +2163,7 @@ body.logged-in > div.top-masthead{
 	height: 400px !important;
     background: rgba(0, 0, 0, 0.5);
 	backdrop-filter: blur(7px);
-    -webkit-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
  }
  .col-blog {
 	 width: 50%;
@@ -2177,14 +2177,14 @@ body.logged-in > div.top-masthead{
  
 .square {
 backdrop-filter: blur(7px);
-    -webkit-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 }
 
 /* New Games Hover ANimation */
 .panel-body ul li:hover .hover {
 	backdrop-filter: blur(7px); 
 
-    -webkit-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 }
 	
 /* disable scroll, creates cleaner design */
@@ -2232,7 +2232,7 @@ li#games-title {
     background: rgba(0, 0, 0, 0.9) !important;
 	backdrop-filter: blur(7px) !important; 
 
-    -webkit-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 	padding: 6px 16px !important;
 
 }
