@@ -2256,7 +2256,7 @@ background-color: rgba(21, 21, 21, 0.9);
 	    color: #f9c600 !important;
 	}
 body {
-background-color: #000;
+background-color: #000 !important;
 	}
 
 li#games-title {
