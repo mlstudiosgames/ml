@@ -2257,7 +2257,7 @@ background-color: rgba(21, 21, 21, 0.9);
 	}
 body {
 background-color: #000 !important;
-	color: fff !important;
+	color: #fff !important;
 	}
 
 li#games-title {
@@ -2270,7 +2270,7 @@ li#games-title {
 color: #fff !important;
 	} 
 	.page-content {
-		color: #fff;
+		color: #fff !important;
 	}
 #wrapper {
 	background-color: #000 !important;
