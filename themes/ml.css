@@ -2292,4 +2292,11 @@ color: #fff !important;
 	.promo-text {
 		color: #cccccc;
 	}
+	.navbar-brand {
+display:none;
+	}
+	.navbar-brand:before {
+    content: url(images/logofull-dark.png);
+}
+	
 }
