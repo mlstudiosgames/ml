@@ -2286,8 +2286,11 @@ color: #fff !important;
 	.panel, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 		background-color: #000 !important;
 	}
-	.news_press ul li.active a, ul.news-page-content li div.news_content h2 a {
-		color: #fff;
+	.news_press ul li.active a {
+		color: #fff !important;
+	}
+ ul.news-page-content li div.news_content h2 a  {
+color: #fff !important;
 	}
 	.promo-text {
 		color: #cccccc;
