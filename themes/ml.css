@@ -2236,3 +2236,24 @@ li#games-title {
 	padding: 6px 16px !important;
 
 }
+/* Dark Mode for iOS, iPadOS, and macOS */
+:root {
+    color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+.top-masthead {
+background-color: rgba(21, 21, 21, 0.9);
+}
+.footer {
+    background-color: #151515; 
+	}
+.square {
+    background-color: rgba(28, 28, 28, 0.3);
+    border: solid 1.5px #000;
+    color: #000;
+	}
+.navbar-nav > li > a { 
+	    color: #f9c600 !important;
+	}
+
+}
