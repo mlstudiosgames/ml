@@ -2272,6 +2272,11 @@ color: #fff !important;
 	.page-content {
 		color: #fff;
 	}
-
+#wrapper {
+	background-color: #000 !important;
+	}
+	#carousel img {
+		background-color: #000 !important;
+	}
 
 }
