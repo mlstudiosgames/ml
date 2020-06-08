@@ -2255,5 +2255,7 @@ background-color: rgba(21, 21, 21, 0.9);
 .navbar-nav > li > a { 
 	    color: #f9c600 !important;
 	}
-
+body {
+background-color: #000;
+	}
 }
