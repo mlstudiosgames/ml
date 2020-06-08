@@ -2257,6 +2257,7 @@ background-color: rgba(21, 21, 21, 0.9);
 	}
 body {
 background-color: #000 !important;
+	color: fff !important;
 	}
 
 li#games-title {
@@ -2265,5 +2266,12 @@ li#games-title {
 .panel-body ul li:hover .hover {
     background-color: rgba(0, 0, 0, 0.7);
 	}
+.article_heading {
+color: #fff !important;
+	} 
+	.page-content {
+		color: #fff;
+	}
+
 
 }
