@@ -2331,3 +2331,7 @@ iframe#game_player {
 display:none;
 }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffa607 !important;
+}
