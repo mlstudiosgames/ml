@@ -2297,3 +2297,6 @@ color: #fff !important;
 	}
 	
 }
+.col-md-9.col-sm-6.animate-box {
+    margin: 20px 0px 20px 0px !important;
+}
