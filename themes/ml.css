@@ -2256,6 +2256,11 @@ background-color: rgba(21, 21, 21, 0.9);
 .navbar-nav > li > a { 
 	    color: #f9c600 !important;
 	}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f9c600 !important;
+}
+	
 body {
 background-color: #000 !important;
 	color: #fff !important;
