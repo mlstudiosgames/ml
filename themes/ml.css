@@ -2303,3 +2303,31 @@ color: #fff !important;
 #pager a.selected {
     background-color: #FFC107; 
 }
+
+/* Better Support for Smaller Devices */
+@media only screen and (max-width: 1048px) {
+iframe#game_player {
+    width: 800px;
+    height: 483px;
+}
+}
+
+@media only screen and (max-width: 840px) {
+iframe#game_player {
+    width: 600px;
+    height: 370px;
+}
+}
+
+@media only screen and (max-width: 610px) {
+iframe#game_player {
+    width: 500px;
+    height: 320px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+iframe#game_player {
+display:none;
+}
+}
