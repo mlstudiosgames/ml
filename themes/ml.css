@@ -2237,7 +2237,7 @@ li#games-title {
 	padding: 6px 16px !important;
 
 }
-.textwidget,h3.widget-title {
+h3.widget-title {
     color: #000 !important;
 }
 
@@ -2273,7 +2273,7 @@ background-color: #000 !important;
 li#games-title {
 	color: #fff;
 	}
-.textwidget,h3.widget-title {
+h3.widget-title {
     color: #fff !important;
 }
 
