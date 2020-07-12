@@ -2350,7 +2350,7 @@ display:none;
 }
   /* CSS specific to iOS devices */ 
 @supports (-webkit-touch-callout: none) {
-iframe#game_player {
+iframe#game_player, .download-text {
 display:none;
 	}
 }
