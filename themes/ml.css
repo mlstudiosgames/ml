@@ -2348,3 +2348,9 @@ display:none;
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffa607 !important;
 }
+  /* CSS specific to iOS devices */ 
+@supports (-webkit-touch-callout: none) {
+iframe#game_player {
+display:none;
+	}
+}
