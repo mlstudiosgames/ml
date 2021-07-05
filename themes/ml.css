@@ -2188,7 +2188,7 @@ backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
 }
 	
-/* disable scroll, creates cleaner design */
+/* disable scroll, creates cleaner design 
 /* width  */
 ::-webkit-scrollbar {
   width: 0px;
@@ -2207,7 +2207,7 @@ backdrop-filter: blur(7px);
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #555;*/
 }
 /* Double Updates Row */
 .updaterow {
