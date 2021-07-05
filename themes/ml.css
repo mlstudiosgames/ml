@@ -2240,7 +2240,8 @@ li#games-title {
 h3.widget-title {
     color: #000 !important;
 }
-
+.medium {
+	color:
 /* Dark Mode for iOS, iPadOS, and macOS */
 :root {
     color-scheme: light dark;
@@ -2250,8 +2251,9 @@ h3.widget-title {
 background-color: rgba(21, 21, 21, 0.9);
 }
 .footer {
-    background-color: #151515; 
+    background-color: #424143 !important; 
 	}
+	
 .square {
     background-color: rgba(28, 28, 28, 0.3);
     border: solid 1.5px #000;
